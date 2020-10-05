@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <!-- CSS only -->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+    <script>
+        !function(d,s,id){let js, fjs = d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+
+    <script src="//widget.time.is/en.js"></script>
+    <script>
+        time_is_widget.init({Kyiv_z713:{template:"TIME<br>DATE", date_format:"dayname daynum/monthnum/yy"}});
+    </script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <header class="header py-1">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 mt-2">
+                <a href="https://time.is/Kyiv" id="time_is_link" rel="nofollow" style="font-size:0"></a>
+                <span id="Kyiv_z713" style="font-size:16px "></span>
+            </div>
+            <div class="col-4 text-center">
+                <a class="header-logo text-dark" href="#">Large</a>
+            </div>
+            <div class="col-4 ">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/50d4530d52/kiev/" data-label_1="KYIV" data-label_2="Kyiv" data-icons="Climacons Animated" data-mode="Current" >KYIV Kyiv</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-scroller py-1 mb-2">
+            <nav class="navbar navbar-expand ">
+                <!-- Links -->
+                <ul class="navbar-nav ">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-2 text-muted" href="#" id="navbardrop" data-toggle="dropdown"> World </a>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item" href="#">Technology</a>
+                            <a class="dropdown-item" href="#">Design</a>
+                            <a class="dropdown-item" href="#">Business</a>
+                            <a class="dropdown-item" href="#">Science</a>
+                            <a class="dropdown-item" href="#">Health</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-muted" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-muted" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-muted" href="#">Link 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 text-muted" href="#">Link 4</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    <div id="demo1" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider/image_part_001.jpg" alt="Toronto_part1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider/image_part_002.jpg" alt="Toronto_part2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider/image_part_003.jpg" alt="Toronto_part3">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo1" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+    <!-- Tab panes -->
+    <ul class="nav nav-tabs my-2">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#anec">Anecdote</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
+            </div>
+        </div> <!--News-->
+        <div class="tab-pane container fade" id="menu1"> <!--Gallery-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_001.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Suspendisse a eros maximus turpis ornare varius vel sed ligula. Sed vestibulum blandit erat fringilla.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_002.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Curabitur dictum eu tellus quis maximus. Aliquam nec enim tincidunt, luctus ex ut, laoreet erat.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">8 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_003.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Donec rhoncus elit in nisi cursus mattis. Nullam molestie tempor lectus sed consectetur. Ut nunc.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">7 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_004.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Fusce et eleifend arcu. Sed commodo ex non metus tempus finibus. Integer a eleifend est.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">6 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_005.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Suspendisse elementum at diam et ultricies. Etiam tincidunt tellus eu urna accumsan dignissim. Cras risus.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">5 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_006.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Praesent cursus est at felis maximus, quis accumsan nulla porta. Sed at fermentum nisi. Donec.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">4 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_007.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Etiam et ex iaculis, congue mi nec, dignissim tortor. Pellentesque eget commodo libero. Donec posuere.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">3 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_008.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Phasellus sit amet felis ac est gravida suscipit non a turpis. Quisque urna neque, ornare.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">2 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img class="card-img-top img-responsive" src="images/gallery/gallery_part_009.jpg" alt="Generic placeholder image" width="100%" height="225">
+
+                        <div class="card-body">
+                            <p class="card-text">Cras venenatis elit vitae enim ultricies aliquet. Pellentesque faucibus nibh ac ultrices scelerisque. In consequat.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">1 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane container fade" id="anec"> <!--Anecdotes-->
+
+            <div class="media mt-3">
+                <img src="images/img_avatar1.png" class="align-self-start rounded-circle mr-3" style="width:60px" alt="avatar">
+                <div class="media-body">
+                    <p>Идут евреи из синагоги и видят - нищий сидит. Поспорили евреи, кто ему меньше милостыни даст. Подходит первый еврей и кидает ему шекель, второй - 1/2 шекеля, третий кидает 1/2 шекеля и говорит: "Это за двоих"</p>
+                </div>
+            </div>
+
+            <div class="media mt-3">
+                <img src="images/img_avatar1.png" class="align-self-start rounded-circle mr-3" style="width:60px" alt="avatar">
+                <div class="media-body">
+                    <p>Сидит нарик, 2 дороги насыпал, только одну занюхал - телефон звонит, он поднимает трубку и говорит: "щас, подождите, у меня вторая линия"</p>
+                </div>
+            </div>
+
+            <div class="media mt-3">
+                <img src="images/img_avatar1.png" class="align-self-start rounded-circle mr-3" style="width:60px" alt="avatar">
+                <div class="media-body">
+                    <p>-Какие планы на сегодня?<br>-Схожу с приятелем в магазин оптики, купим наконец-то очки<br>-А потом?<br>-А потом посмотрим</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<footer class="footer mt-auto py-3">
+    <div class="container text-center py-3 ">
+        <div class="footer-devider"></div>
+        <p>2020 &copy; Maxim Matselyuk
+            <button type="button" class="btn-footer btn-email" id="emailLnk"><i class="fa fa-envelope"></i></button>
+    </div>
+</footer>
+<script>
+    $(document).ready(function() {
+        $("#emailLnk").attr('href',"mailto:matseliukmie@krok.edu.ua");
+    });
+</script>
+</body>
+</html>

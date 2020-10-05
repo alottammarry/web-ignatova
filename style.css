@@ -1,0 +1,94 @@
+.header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.header-logo:hover {
+    text-decoration: none;
+}
+
+.nav-scroller {
+    position: relative;
+    overflow-y: visible;
+}
+
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 0.975rem;
+
+}
+
+.carousel-inner img {
+    display: block;
+    width: 1110px;
+    height: 350px !important;
+    margin: 0 auto;
+
+}
+.footer-devider {
+    line-height: 1;
+    border-top: 1px solid #e5e5e5;
+}
+
+.btn-footer {
+
+    margin: .375rem;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
+    border: 0;
+    border-radius: .125rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    padding: .34rem 1.14rem;
+    font-size: .81rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.btn-email {
+    color: #fff;
+    background-color: #4b515d !important;
+
+}
+
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.fa {
+    text-decoration: none;
+}
+.i {
+    text-decoration: none;
+}
+
+footer.a {
+    text-decoration: none;
+}
